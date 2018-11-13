@@ -10,9 +10,9 @@ done
 XSOCK=/tmp/.X11-unix
 XAUTH=/home/$USER/.Xauthority
 RESULTS_CONTAINER=/home/mavs/MAVs/results
-RESULTS_HOST="$(pwd)"/results
+RESULTS_HOST="$(pwd)"/../../../results
 SRC_CONTAINER=/home/mavs/MAVs/ros/src
-SRC_HOST="$(pwd)"/ros/src
+SRC_HOST="$(pwd)"/../../../ros/src
 
 echo "Results directory: ${RESULTS_CONTAINER}"
 
